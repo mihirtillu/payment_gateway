@@ -1,0 +1,29 @@
+body{
+    background: rgb(254,174,78) ;
+    background: linear-gradient(45deg, rgba(254,174,78,1) 35%, rgba(255,255,255,1) 54%, rgba(12,215,14,0.9653167724609375) 72%);
+    min-width: 100%;
+    min-height: 100%;
+}
+#cont{
+    margin-top: 15%;
+    width: 80%;
+    height: 50%;
+    margin-left: 10%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    border-radius: 25px;
+}
+h2{
+    margin-top: 1%;
+}
+input{
+    margin-top: 2%;
+}
+#z{
+margin-left: 10%;
+    width:80%;
+}
+#cont:hover{
+    transform: scale(1.007);
+    box-shadow: 0 14px 8px 0 rgba(0, 0, 0, 0.2), 0 16px 20px 0 rgba(0, 0, 0, 0.19);
+}
